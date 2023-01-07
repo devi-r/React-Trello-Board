@@ -1,0 +1,41 @@
+.wrapper {
+  min-height: 96px;
+  width: 170px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+  position: relative;
+  padding: 24px 16px 16px 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+  .title {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 24px 24px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: calc(100% - 24px);
+  }
+  .description {
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+  .closeIcon {
+    cursor: pointer;
+    position: absolute;
+    font-size: 24px;
+    right: 16px;
+    top: 20px;
+    line-height: 1;
+  }
+}
+
+.cardInput1 {
+  width: 104px;
+  margin-bottom: 4px;
+}
+
+.cardInput2 {
+  width: 148px;
+}

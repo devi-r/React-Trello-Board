@@ -1,0 +1,30 @@
+.wrapper {
+  width: 170px;
+  margin-top: 10px;
+  position: relative;
+
+  .children {
+    background-color: white;
+    border-radius: 4px;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  input {
+    font-size: 12px;
+  }
+  .button {
+    margin-top: 8px;
+    padding: 6px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
